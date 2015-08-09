@@ -76,6 +76,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CodeDojo.Kata\CodeDojo.Kata.csproj">
+      <Project>{d3ab85dc-491f-4212-8508-6dd85ea3aeea}</Project>
+      <Name>CodeDojo.Kata</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
