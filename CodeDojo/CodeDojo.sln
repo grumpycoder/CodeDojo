@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeDojo.Web", "CodeDojo.Web\CodeDojo.Web.csproj", "{A5C51796-86D2-4B7A-B693-BDCDE3B545DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeDojo.Tests", "CodeDojo.Tests\CodeDojo.Tests.csproj", "{934C9DF3-6A23-46F4-8D8A-FF0BE5060E6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeDojo.Kata", "CodeDojo.Kata\CodeDojo.Kata.csproj", "{D3AB85DC-491F-4212-8508-6DD85EA3AEEA}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5C51796-86D2-4B7A-B693-BDCDE3B545DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C51796-86D2-4B7A-B693-BDCDE3B545DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5C51796-86D2-4B7A-B693-BDCDE3B545DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5C51796-86D2-4B7A-B693-BDCDE3B545DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{934C9DF3-6A23-46F4-8D8A-FF0BE5060E6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{934C9DF3-6A23-46F4-8D8A-FF0BE5060E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{934C9DF3-6A23-46F4-8D8A-FF0BE5060E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{934C9DF3-6A23-46F4-8D8A-FF0BE5060E6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3AB85DC-491F-4212-8508-6DD85EA3AEEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3AB85DC-491F-4212-8508-6DD85EA3AEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3AB85DC-491F-4212-8508-6DD85EA3AEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3AB85DC-491F-4212-8508-6DD85EA3AEEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
